@@ -4,15 +4,15 @@
   "proposedName": "Wicked Anti-fraud",
   "repository": {
     "type": "git",
-    "url": "https://github.com/abshkd/waf"
+    "url": "https://github.com/abshkd/metamask-snap"
   },
   "source": {
-    "shasum": "oW0oqECvkXaKDntgVWnL8hp18nCQVHE+ajQiivISy0k=",
+    "shasum": "xu6YG6u28d6Rgqamj8tzVhBpXmtj8qJy6c2bvQbXwX0=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
         "iconPath": "images/icon.svg",
-        "packageName": "@efinancesg/waf-snap",
+        "packageName": "@wickedus/waf-snap",
         "registry": "https://registry.npmjs.org/"
       }
     }
