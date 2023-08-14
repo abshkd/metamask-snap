@@ -1,6 +1,6 @@
 {
   "name": "@wickedus/waf-snap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Metamask snap for wicked.us Anti-fraud and transaction analysis",
   "repository": {
     "type": "git",

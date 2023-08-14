@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stay safe and secure with MetaMask.",
   "proposedName": "Wicked Anti-fraud",
   "repository": {
@@ -7,7 +7,7 @@
     "url": "https://github.com/abshkd/metamask-snap"
   },
   "source": {
-    "shasum": "xu6YG6u28d6Rgqamj8tzVhBpXmtj8qJy6c2bvQbXwX0=",
+    "shasum": "M43wjkerlJ4sCxe1JiPQ6TIF9OktFOtlvcM3ahW2J3c=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",

@@ -10,7 +10,7 @@ import { heading, panel, text } from '@metamask/snaps-ui';
  * @returns The result of the analysis.
  */
 async function analyze(transaction: Json, chainId: string, origin?: string) {
-  const rawresponse = await fetch('http://127.0.0.1:5000/process', {
+  const rawresponse = await fetch('https://api.wicked.us/process', {
     headers: {
       'Content-Type': 'application/json',
     },
@@ -41,7 +41,7 @@ export const onTransaction: OnTransactionHandler = async ({
         `Address: ${resp.address.result} 
          ${resp.address.is_contract ? '(Contract)' : ''} ${
           resp.address.tags || ''
-        }`,
+        }`
       ),
       text(`Blockchain: ${resp.chain.name} Info: ${resp.chain.result}`),
       text(`App: ${resp.origin.result || ''} ${resp.origin.tags || ''}`),
