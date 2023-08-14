@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "description": "Stay safe and secure with MetaMask.",
+  "proposedName": "Wicked Anti-fraud",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abshkd/waf"
+  },
+  "source": {
+    "shasum": "oW0oqECvkXaKDntgVWnL8hp18nCQVHE+ajQiivISy0k=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "images/icon.svg",
+        "packageName": "@efinancesg/waf-snap",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "snap_dialog": {},
+    "endowment:rpc": {
+      "dapps": true,
+      "snaps": false
+    },
+    "endowment:network-access": {},
+    "endowment:transaction-insight": {
+      "allowTransactionOrigin": true
+    }
+  },
+  "manifestVersion": "0.1"
+}
